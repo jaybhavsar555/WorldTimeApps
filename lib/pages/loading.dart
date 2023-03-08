@@ -1,4 +1,5 @@
 import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 
@@ -11,8 +12,6 @@ class Loading extends StatefulWidget {
 
 class _LoadingState extends State<Loading> {
   var url=Uri.parse('https://jsonplaceholder.typicode.com/todos/1');
-
-
   void getData() async {
 
     // //create a network request for username
